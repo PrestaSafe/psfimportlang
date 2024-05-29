@@ -1,0 +1,4 @@
+services:
+  psf.console.importlanguage:
+    class: PrestaSafe\PsfImportLang\Command\Translations\ImportLanguage
+    tags: [console.command]
