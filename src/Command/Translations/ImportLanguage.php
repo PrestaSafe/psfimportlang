@@ -20,7 +20,7 @@ final class ImportLanguage extends Command
             ->setName('psf:translations:import')
             ->setDescription('Import a translation by iso code')
             ->setHelp('This command will import or update a translation package')
-            ->addUsage('./bin/console fop:translations:import fr import fr translation package ')
+            ->addUsage('./bin/console psf:translations:import fr import fr translation package ')
             ->addArgument(
                 'iso',
                 InputOption::VALUE_REQUIRED,
